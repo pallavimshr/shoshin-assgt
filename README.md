@@ -1,70 +1,53 @@
-# Getting Started with Create React App
+## Assignment: Clone a Given UI
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This assignment involves cloning a given UI using React and styling it with CSS. The UI is designed to be responsive and should work seamlessly on both desktop and tablet devices.
 
-## Available Scripts
+### Requirements:
+- **Technology Stack**: React for the component structure and CSS for styling.
+- **Responsiveness**: The design must be responsive and adapt to different screen sizes, including desktop and tablets.
+- **Functionality**: Ensure that all interactive elements are functional and that the layout adjusts correctly based on the screen size.
 
-In the project directory, you can run:
+### Deliverables:
+1. **React Components**: Build the UI using React components.
+2. **CSS Styling**: Apply CSS for styling and ensure responsiveness.
+3. **Responsiveness**: Test the UI on both desktop and tablet devices to ensure it adjusts properly.
 
-### `npm start`
+### Notes:
+- Focus on replicating the UI accurately, including layout, colors, and typography.
+- Pay attention to responsiveness and make sure that the UI looks good and functions well on both desktop and tablet screens.
+## Live Deployment
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+You can view the live deployment of the form [here](https://shoshin-assgt.vercel.app/).
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Installation and Setup
 
-### `npm test`
+To get started with this project, follow these steps:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Prerequisites
 
-### `npm run build`
+Ensure you have [Node.js](https://nodejs.org/) and [npm](https://www.npmjs.com/) (Node Package Manager) installed on your machine.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Clone the Repository
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+git clone https://github.com/pallavimshr/shoshin-assgt
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+### Navigate to the Project Directory
 
-### `npm run eject`
+Change to the project directory with:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+cd shoshin-assgt
+```
+### Install Dependencies
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Run the following command to install all the necessary dependencies:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```bash
+npm install
+```
+### Run Project
+Run the following command to run the project
+```bash
+npm start

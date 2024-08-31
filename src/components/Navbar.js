@@ -9,15 +9,15 @@ const Navbar = () => {
       </div>
       <div className="navbar-right">
         <div className="icon">
-          <img src="icon1.png" alt="Icon 1" />
+          <img src="/ic_round-notifications.png" alt="Icon 1" />
         </div>
         <div className="icon">
-          <img src="icon2.png" alt="Icon 2" />
+          <img src="/bi_chat-left-dots-fill.png" alt="Icon 2" />
         </div>
         <div className="profile">
-          <img src="profile.png" alt="Profile" className="profile-pic" />
-          <span className="profile-name">Pallavi Mishra</span>
-          <img src="down-arrow.png" alt="Down Arrow" className="down-arrow" />
+          <img src="/Mask Group.png" alt="Profile" className="profile-pic" />
+          <span className="profile-name">Admirra John</span>
+          <img src="/frame-101.svg" alt="Down Arrow" className="down-arrow" />
         </div>
       </div>
     </header>

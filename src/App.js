@@ -4,8 +4,10 @@ import Navbar from './components/Navbar';
 import DataCard from './components/DataCard'; 
 import StatisticsCard from './components/StatisticsCard';
 import Announcement from './components/Announcement';
-
+import RecentActivity from './components/RecentActivity';
+import UpcomingSchedule from './components/UpcomingSchedule';
 import './App.css';
+
 
 function App() {
   return (
@@ -45,14 +47,14 @@ function App() {
                 bigText="216" 
                 smallText1="120 Men" 
                 smallText2="96 Women" 
-                picture="../public/Frame 52.png" 
+                picture="/Frame 52.png" 
               />
               <StatisticsCard 
                 title="Talent Request" 
                 bigText="16" 
                 smallText1="6 Men" 
                 smallText2="10 Women" 
-                picture="path/to/picture2.jpg" 
+                picture="/Frame 52 (1).png" 
               />
             </div>
             <div className="row">
@@ -61,7 +63,8 @@ function App() {
           </div>
 
           <div className="column column-2">
-            <p> Col 2</p>
+          <div className="column-2-element element-1"><RecentActivity/></div>
+          <div className="column-2-element element-2"><UpcomingSchedule/></div>
           </div>
         </div>
       </main>

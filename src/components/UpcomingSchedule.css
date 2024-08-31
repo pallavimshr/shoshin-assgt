@@ -1,4 +1,4 @@
-.announcement {
+.upcoming-schedule {
     width: 100%;
     background-color: #ffffff; 
     padding: 20px; 
@@ -6,87 +6,90 @@
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); 
     margin-bottom: 20px; 
     position: relative;
-  }
-  
-  .announcement-header {
+}
+
+.schedule-header {
     position: sticky;
-  top: 0; 
-  background-color: #ffffff; /* Ensure background color matches the parent */
-  z-index: 1; /* Ensure it stays on top */
-  display: flex;
-  justify-content: space-between; 
-  align-items: center;
-  margin-bottom: 20px; 
-  padding: 10px; /* Add padding for better spacing */
-  border-bottom: 1px solid #e0e0e0; 
-  }
-  
-  .announcement-title {
+    top: 0; 
+    background-color: #ffffff; 
+    z-index: 1; 
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    margin-bottom: 20px; 
+    padding: 10px; 
+    border-bottom: 1px solid #e0e0e0; 
+}
+
+.schedule-title {
     font-size: 1.5rem; 
-  }
-  
-  .announcement-date {
+}
+
+.schedule-date {
     background-color: #f0f0f0; 
     padding: 10px 15px;
     border-radius: 5px; 
     font-size: 1rem; 
     display: flex;
     align-items: center;
-  }
-  
-  .dropdown-arrow {
+}
+
+.dropdown-arrow {
     margin-left: 10px;
     font-size: 1rem; 
-  }
-  
-  .announcement-items {
+}
+
+.schedule-items {
     margin-bottom: 20px; 
     overflow-y: auto; 
- 
-  }
-  
-  .announcement-item {
+}
+
+.schedule-item {
     display: flex;
     justify-content: space-between; 
     align-items: center;
     padding: 10px 0; 
     border: 1px solid #e0e0e0; 
     background-color: #f9f9f9;
-    margin:10px
-  }
-  
-  .item-content {
+    margin: 10px;
+}
+
+.item-content {
     flex: 1;
-  }
-  
-  .item-content h4 {
+}
+
+.item-content h4 {
     margin: 0;
     font-size: 1.25rem; 
-  }
-  
-  .schedule {
+}
+
+.schedule-time {
     font-size: 0.875rem; 
     color: #6c757d; 
-  }
-  
-  .item-icons {
+}
+
+.item-icon {
     display: flex;
     gap: 10px; 
-  }
-  
-  .icon {
+}
+
+.icon {
     font-size: 1.25rem; 
-  }
-  
-  .announcement-footer {
+}
+
+.schedule-footer {
     text-align: center; 
     position: sticky;
-  bottom: 0;
-  }
-  
-  .see-all {
+    bottom: 0;
+}
+
+.see-all {
     color: #ff0000; 
     text-decoration: none; 
     font-size: 1rem;
+}
+.additional-text {
+    margin-bottom: 10px; 
+    font-size: 1rem;
+    color: #555; 
   }
-  

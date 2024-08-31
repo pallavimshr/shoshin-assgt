@@ -18,8 +18,8 @@ const Announcement = () => {
             <p className="schedule">5 minutes ago</p>
           </div>
           <div className="item-icons">
-            <span className="icon">🔔</span>
-            <span className="icon">✏️</span>
+          <img src="/bi_pin-angle-fill (1).png" alt="Notification Icon" className="icon" />
+            <img src="/ic-horizontal menu.png" alt="Notification Icon" className="icon" />
           </div>
         </div>
         <div className="announcement-item">
@@ -28,8 +28,8 @@ const Announcement = () => {
             <p className="schedule">Yesterday, 12:30PM</p>
           </div>
           <div className="item-icons">
-            <span className="icon">🔔</span>
-            <span className="icon">✏️</span>
+          <img src="/bi_pin-angle-fill.png" alt="Notification Icon" className="icon" />
+            <img src="/ic-horizontal menu.png" alt="Notification Icon" className="icon" />
           </div>
         </div>
         <div className="announcement-item">
@@ -38,8 +38,8 @@ const Announcement = () => {
             <p className="schedule">Scheduled for 4:00 PM</p>
           </div>
           <div className="item-icons">
-            <span className="icon">🔔</span>
-            <span className="icon">✏️</span>
+          <img src="/bi_pin-angle-fill.png" alt="Notification Icon" className="icon" />
+            <img src="/ic-horizontal menu.png" alt="Notification Icon" className="icon" />
           </div>
         </div>
       </div>

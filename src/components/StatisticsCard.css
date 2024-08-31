@@ -1,0 +1,47 @@
+.statistics-card {
+    display: flex;
+    justify-content: space-between; 
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff; 
+    margin-bottom: 20px; 
+  }
+  
+  .statistics-card-content {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+  
+  .text-content {
+    flex: 1;
+    margin-right: 20px; 
+  }
+  
+  .picture-content {
+    flex-shrink: 0; 
+  }
+  
+  .picture-content img {
+    max-width: 100%; 
+    height: auto; 
+    border-radius: 8px; 
+  }
+  
+  .text-content h3 {
+    margin: 0;
+    font-size: 1.25rem; 
+  }
+  
+  .text-content h1 {
+    margin: 10px 0;
+    font-size: 2rem; 
+  }
+  
+  .text-content .small-text {
+    margin: 5px 0;
+    font-size: 0.875rem; 
+    color: #6c757d; 
+  }
+  

@@ -1,0 +1,27 @@
+.data-card {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+  }
+  
+  .data-card-header h4 {
+    margin: 0;
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  .data-card-body h1 {
+    margin: 10px 0;
+    font-size: 1.5rem;
+    color: #000;
+  }
+  
+  .data-card-body p {
+    margin: 0;
+    font-size: 1rem;
+    color: #666;
+  }
+  
